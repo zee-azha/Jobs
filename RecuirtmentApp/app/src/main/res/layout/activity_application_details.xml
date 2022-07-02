@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplicationDetailsActivity">
+    <TextView
+        android:id="@+id/tv_ApplyJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Application"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="4dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:layout_below="@+id/tv_ApplyJob"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="4dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvName"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/ic_rectangle_loginbtn"
+        android:hint="Nama"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="16sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_below="@+id/Name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="4dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/edmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvemail"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/ic_rectangle_loginbtn"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="16sp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/tv_Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:layout_below="@+id/edmail"
+        android:textSize="16sp"
+        android:inputType="phone"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="4dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_Phone"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/ic_rectangle_loginbtn"
+        android:hint="Phone Number"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="16sp"></TextView>
+
+
+    <Button
+        android:id="@+id/downjob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNumber"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/ic_rectangle_loginbtn"
+        android:text="Download CV"
+        android:textAllCaps="false"
+        android:textSize="16sp">
+
+    </Button>
+
+
+</RelativeLayout>
